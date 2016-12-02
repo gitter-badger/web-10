@@ -1,0 +1,30 @@
+<template>
+    <style>
+        .statusIcon {
+            width: 64px;
+            height: 64px;
+        }
+    </style>
+    <h1 class="page-title">Dashboard <small><small>Portals</small></small>
+    </h1>
+    <div class="row">
+        <div class="col-md-8">
+            <table id="portalsTable" class="col=md-8 table table-bordered table-hover">
+                <thead>
+                    <tr>
+                        <th>Portal Key</th>
+                        <th>Runes</th>
+                        <th>Unit</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr repeat.for="portal of portals">
+                        <td>${portal.newKey}</td>
+                        <td> <img class='statusIcon' src.bind="portal.isRuneReady ? './assets/img/available.png':'./assets/img/notavailable.png'" /></td>
+                        <td><img class='statusIcon' src.bind="portal.isUnitReady ? './assets/img/available.png':'./assets/img/notavailable.png'" /></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</template>
