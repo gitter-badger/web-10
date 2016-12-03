@@ -7,5 +7,12 @@ au run
 ```
 
 ## Références
-[git-flow cheatsheet)](http://danielkummer.github.io/git-flow-cheatsheet/)
-[markdown)](https://help.ghost.org/hc/en-us/articles/224410728-Markdown-Guide/)
+### Git
+- [git-flow cheatsheet](http://danielkummer.github.io/git-flow-cheatsheet)
+- [git-diff avec Visual Studio Code](https://code.visualstudio.com/Docs/editor/versioncontrol)
+
+### Markdown
+- [markdown](https://help.ghost.org/hc/en-us/articles/224410728-Markdown-Guide)
+
+### Aurelia
+- [documentation Aurelia](http://aurelia.io/hub.html#/doc/article/aurelia/framework/latest/contact-manager-tutorial/1)
